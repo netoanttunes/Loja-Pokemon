@@ -1,0 +1,89 @@
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container header{
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  background-color: red;
+  align-items: center;
+}
+
+.container img{
+  margin-left: 30px;    
+}
+
+.container input{
+  width: 500px;
+  height: 30px;
+  margin-left: 210px;
+  border-radius: 8px;
+  box-shadow:  5px 5px 3px rgba(0, 0, 0, 0.3);
+  
+}
+
+.lista-container {
+  width: 100%;
+  padding: 0 30px 0 30px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.lista-container ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(270px, 1fr));
+  grid-gap: 24px;
+  list-style: none;
+  
+}
+
+
+.lista-container ul li {
+  text-align: center;
+  background: rgb(255, 253, 163);
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow:  7px 7px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.lista-container ul li h2 {
+  margin-bottom: 15px;
+
+}
+
+.lista-container ul li .buttonID {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  border: 0;
+}
+
+.lista-container ul li .buttonID:hover {
+  opacity: 0.6;
+}
+
+.lista-container ul li strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #41414d;
+}
+
+
+.lista-container ul li p + strong{
+  margin-top: 15px;
+}
+
+.lista-container ul li p {
+  color: #737380;
+  line-height: 21px;
+  font-size: 16px;
+}
